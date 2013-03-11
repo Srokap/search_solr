@@ -1,7 +1,4 @@
 <?php
-require_once(dirname(__FILE__).'/vendors/Solarium/Autoloader.php');
-Solarium\Autoloader::register();
-
 function search_solr_get_config() {
 	$config = array(
 		'endpoint' => array(
